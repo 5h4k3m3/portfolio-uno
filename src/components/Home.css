@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile-components {
+  border-radius: 20px;
+  background: #f8f1f7;
+  box-shadow:  10px 10px 20px #aaaaaa, -10px -10px 20px #ffffff;
+  width: 80vw;
+  height: 80vh;
+  margin: 10vh 10vw;
+  display: flex;
+  position: relative;
+}
+
+.profile-components h1 {
+  font-size: 4rem;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: #3d3d3d;
+}
+
+.profile-components h2 {
+  font-size: 2rem;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: #3d3d3d;
+}
+
+
+.profile-components .contents {
+  border-radius: 20px;
+  background: #f8f1f7;
+  box-shadow: inset 10px 10px 20px #bcb7bc,
+              inset -10px -10px 20px #ffffff;
+  position: absolute;
+  width: 25%;
+  height: 30%;
+  padding: 5%;
+  top: 30%;
+  right: 10%;
+}
