@@ -6,6 +6,7 @@
   height: 300vh;
   @apply bg-background w-screen absolute top-0 left-0;
 }
+
 .mainCard {
   border-radius: 20px;
   background-color: #f8f1f7;
@@ -21,7 +22,28 @@
 .profileIconWrapper {
   border-radius: 50%;
   background: #f8f1f7;
-  box-shadow:  10px 10px 20px #cccccc, -10px -10px 20px #f8f1f7;
+  box-shadow:  10px 10px 20px #c6c1c6, -10px -10px 20px #ffffff;
+}
+
+.textShadow {
+  text-shadow: 4px 4px 5px #c6c1c6, -3px -3px 5px #ffffff;
+}
+
+.neumoButton {
+  border-radius: 30px;
+  background: #f8f1f7;
+  box-shadow:  20px 20px 40px #c6c1c6, -20px -20px 40px #ffffff;
+  transition: all 0.3s;
+}
+
+.neumoButton:hover {
+  background: #f8f1f7;
+  box-shadow:  7px 7px 14px #dfd9de, -7px -7px 14px #ffffff;
+}
+
+.neumoButton:active {
+background: #f8f1f7;
+box-shadow: inset 7px 7px 14px #dfd9de, inset -7px -7px 14px #ffffff;
 }
 
 /* .title-accent::before {
