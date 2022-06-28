@@ -12,10 +12,10 @@ export const Home = () => {
         </div>
         <div className="contents">
           <ul>
-            <li>About</li>
-            <li>Works</li>
-            <li>Skills</li>
-            <li>Contact</li>
+            <li>#About</li>
+            <li>#Works</li>
+            <li>#Skills</li>
+            <li>#Contact</li>
           </ul>
         </div>
       </div>

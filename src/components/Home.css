@@ -1,9 +1,10 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  --base-color: #f8f1f7;
+  --main-color: #3d3d3d;
+  --sub-color: #cccbcb;
+  --accent-color: rgb(153, 158, 255);
+  user-select: none;
 }
-
 .profile-components {
   border-radius: 20px;
   background: #f8f1f7;
@@ -15,20 +16,41 @@
   position: relative;
 }
 
+.profile {
+  position: relative;
+  width: 40%;
+  height: 70%;
+  top: 15%;
+  left: 10%;
+}
+
+.profile::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -8%;
+  height: 40vh;
+  width: 5px;
+  border-radius: 10px;
+  background-color: var(--accent-color);
+}
+
 .profile-components h1 {
   font-size: 4rem;
   position: absolute;
-  top: 25%;
-  left: 10%;
-  color: #3d3d3d;
+  top: 0;
+  left: 0;
+  margin: 0;
+  color: var(--main-color);
 }
 
 .profile-components h2 {
   font-size: 2rem;
   position: absolute;
-  top: 40%;
-  left: 10%;
-  color: #3d3d3d;
+  top: 15%;
+  left: 1%;
+  color: var(--sub-color);
 }
 
 
