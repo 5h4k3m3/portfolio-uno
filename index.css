@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700&display=swap");
+
+html, * {
+  cursor: none;
+}
+
+.mouse,
+.circle {
+  position: absolute;
+  border: 3px solid;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.mouse {
+  width: 20px;
+  height: 20px;
+  top: -10px;
+  left: -10px;
+  border-color: rgb(142, 46, 110);
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  top: -20px;
+  left: -20px;
+  border-color: rgba(51, 31, 125, 0.5);
+  transition: transform .25s ease-out;
+}
