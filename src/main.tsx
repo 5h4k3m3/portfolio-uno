@@ -1,10 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { App } from "./App";
-import "./normalize.css";
+import { Home } from "./components/Home";
+import { Footer } from "./pages/Footer";
+import { Skills } from "./pages/Skills";
+import { Works } from "./pages/Works";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <Home />
+    <Skills />
+    <Works />
+    <Footer />
   </React.StrictMode>
 );
