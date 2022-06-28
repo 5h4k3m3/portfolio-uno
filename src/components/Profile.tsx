@@ -11,8 +11,9 @@ export const Profile = () => {
         />
       </div>
       <div className="nameWrapper font-zenMaru font-bold px-10 pt-20 pb-10">
-        <h3 className="text-5xl text-mainText pb-4">しゃけのきりみ</h3>
-        <h3 className="text-4xl text-subText ml-2">Salmon Fillet</h3>
+        <h3 className="text-2xl text-mainText pb-2 ml-2"># Name</h3>
+        <p className="text-5xl text-mainText pb-4">しゃけのきりみ</p>
+        <p className="text-4xl text-subText ml-2">Salmon Fillet</p>
       </div>
     </div>
   );

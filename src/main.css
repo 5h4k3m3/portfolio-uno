@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.background {
+  height: 300vh;
+  @apply bg-background w-screen absolute top-0 left-0;
+}
 .mainCard {
   border-radius: 20px;
   background-color: #f8f1f7;
   box-shadow:  10px 10px 20px #aaaaaa, -10px -10px 20px #b0e1ff;
+}
+
+.navigationCard {
+  border-radius: 20px;
+  background: #b0e1ff;
+  box-shadow: inset 10px 10px 20px #bcb7bc, inset -10px -10px 20px #b0e1ff;
 }
 
 .profileIconWrapper {

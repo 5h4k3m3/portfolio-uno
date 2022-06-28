@@ -5,10 +5,14 @@ import "../main.css";
 
 export const Home = () => {
   return (
-    <>
-      <Title />
-      <Profile />
-      <Navigation />
-    </>
+    <div className="flex">
+      <div>
+        <Title />
+        <Profile />
+      </div>
+      <div>
+        <Navigation />
+      </div>
+    </div>
   );
 };
