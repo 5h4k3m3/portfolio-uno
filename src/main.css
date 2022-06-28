@@ -7,3 +7,14 @@
   background-color: #f8f1f7;
   box-shadow:  10px 10px 20px #aaaaaa, -10px -10px 20px #b0e1ff;
 }
+
+.profileIconWrapper {
+  border-radius: 50%;
+  background: #f8f1f7;
+  box-shadow:  10px 10px 20px #cccccc, -10px -10px 20px #f8f1f7;
+}
+
+/* .title-accent::before {
+  content: "";
+  @apply inline-block relative top-0 left-3 h-20 w-1 rounded-lg bg-red-300;
+} */
