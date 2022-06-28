@@ -1,26 +1,33 @@
-* {
+:root {
   --base-color: #f8f1f7;
+  --background-color: #b0e1ff;
   --main-color: #3d3d3d;
   --sub-color: #cccbcb;
-  --accent-color: rgb(153, 158, 255);
-  user-select: none;
+  --accent-color: #b699ff;
 }
-.profile-components {
-  border-radius: 20px;
-  background: #f8f1f7;
-  box-shadow:  10px 10px 20px #aaaaaa, -10px -10px 20px #ffffff;
-  width: 80vw;
-  height: 80vh;
-  margin: 10vh 10vw;
+
+body {
+  user-select: none;
+  background-color: var(--background-color);
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profileComponents {
+  border-radius: 20px;
+  background-color: var(--base-color);
+  box-shadow:  10px 10px 20px #aaaaaa, -10px -10px 20px var(--background-color);
   position: relative;
+  width: 90vw;
+  height: 300vh;
+  margin: 10vh 0;
 }
 
 .profile {
-  position: relative;
-  width: 40%;
-  height: 70%;
-  top: 15%;
+  position: absolute;
+  width: 50%;
+  height: 70vh;
+  top: 5%;
   left: 10%;
 }
 
@@ -30,14 +37,16 @@
   position: absolute;
   top: 0;
   left: -8%;
-  height: 40vh;
+  height: 20vh;
   width: 5px;
   border-radius: 10px;
-  background-color: var(--accent-color);
+  background: rgb(176,225,255);
+  background: linear-gradient(180deg, rgb(152, 199, 228) 0%, rgba(182,153,255,1) 100%);
 }
 
-.profile-components h1 {
+.profile h1 {
   font-size: 4rem;
+  font-weight: bold;
   position: absolute;
   top: 0;
   left: 0;
@@ -45,16 +54,53 @@
   color: var(--main-color);
 }
 
-.profile-components h2 {
-  font-size: 2rem;
+.profile h2 {
+  font-size: 1.5rem;
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 1%;
   color: var(--sub-color);
 }
 
+.profile .myNameEn {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  color: var(--main-color);
+}
 
-.profile-components .contents {
+.profile .myNameJp {
+  font-size: 1.8rem;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  color: var(--main-color);
+}
+
+.profile-icon {
+  border-radius: 50%;
+  background: var(--base-color);
+  box-shadow:  10px 10px 20px #cccccc,
+               -10px -10px 20px var(--base-color);
+  display: flex;
+  position: absolute;
+  top: 25%;
+  height: 150px;
+  width: 150px;
+}
+
+.profile-icon img {
+  border-radius: 50%;
+  width: 90%;
+  height: 90%;
+  padding: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.profileComponents .contents {
   border-radius: 20px;
   background: #f8f1f7;
   box-shadow: inset 10px 10px 20px #bcb7bc,
