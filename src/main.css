@@ -10,43 +10,56 @@
 .mainCard {
   border-radius: 20px;
   background-color: #f8f1f7;
-  box-shadow:  10px 10px 20px #aaaaaa, -10px -10px 20px #b0e1ff;
+  box-shadow:  10px 10px 20px #9d9d9d, -10px -10px 20px #d8e2f0;
 }
 
-.navigationCard {
-  border-radius: 20px;
-  background: #b0e1ff;
-  box-shadow: inset 10px 10px 20px #bcb7bc, inset -10px -10px 20px #b0e1ff;
-}
-
-.profileIconWrapper {
+.iconWrapper {
   border-radius: 50%;
   background: #f8f1f7;
-  box-shadow:  10px 10px 20px #c6c1c6, -10px -10px 20px #ffffff;
+  box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
+}
+
+.linkIcon {
+  border-radius: 50%;
+  background: #f8f1f7;
+  box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
+  transition: all 0.3s;
+}
+
+.linkIcon:hover {
+  background: #f8f1f7;
+  box-shadow:  7px 7px 14px #9d9d9d, -7px -7px 14px #ffffff;
+}
+
+.linkIcon:active {
+  background: #f8f1f7;
+  box-shadow: inset 7px 7px 14px #9d9d9d, inset -7px -7px 14px #ffffff;
 }
 
 .textShadow {
-  text-shadow: 4px 4px 5px #c6c1c6, -3px -3px 5px #ffffff;
+  text-shadow: 3px 3px 5px #9d9d9d, -3px -3px 5px #ffffff;
 }
 
 .neumoButton {
   border-radius: 30px;
   background: #f8f1f7;
-  box-shadow:  20px 20px 40px #c6c1c6, -20px -20px 40px #ffffff;
+  box-shadow:  20px 20px 40px #9d9d9d, -20px -20px 40px #ffffff;
   transition: all 0.3s;
 }
 
 .neumoButton:hover {
   background: #f8f1f7;
-  box-shadow:  7px 7px 14px #dfd9de, -7px -7px 14px #ffffff;
+  box-shadow:  7px 7px 14px #9d9d9d, -7px -7px 14px #ffffff;
 }
 
 .neumoButton:active {
 background: #f8f1f7;
-box-shadow: inset 7px 7px 14px #dfd9de, inset -7px -7px 14px #ffffff;
+box-shadow: inset 7px 7px 14px #9d9d9d, inset -7px -7px 14px #ffffff;
 }
 
-/* .title-accent::before {
+.titleAccent::before {
   content: "";
-  @apply inline-block relative top-0 left-3 h-20 w-1 rounded-lg bg-red-300;
-} */
+  background: rgb(176,225,255);
+  background: linear-gradient(180deg, rgba(176,225,255,1) 0%, rgba(182,153,255,1) 100%);
+  @apply absolute inline-block top-20 left-12 h-60 w-2 rounded-lg;
+}
