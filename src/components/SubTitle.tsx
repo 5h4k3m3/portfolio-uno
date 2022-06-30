@@ -7,7 +7,7 @@ type Props = {
 
 export const SubTitle: FC<Props> = (props) => {
   return (
-    <div className="subTitle">
+    <div className="font-zenMaru font-bold text-4xl text-mainText">
       <h2>{props.children}</h2>
     </div>
   );

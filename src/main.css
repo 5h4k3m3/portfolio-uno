@@ -13,6 +13,12 @@
   box-shadow:  10px 10px 20px #9d9d9d, -10px -10px 20px #d8e2f0;
 }
 
+.skillCard {
+  border-radius: 20px;
+  background: #f8f1f7;
+  box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
+}
+
 .iconWrapper {
   border-radius: 50%;
   background: #f8f1f7;
