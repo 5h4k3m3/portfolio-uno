@@ -1,5 +1,4 @@
 import { FC, ReactNode } from "react";
-import "../main.css";
 
 type Props = {
   children: ReactNode;
@@ -7,8 +6,8 @@ type Props = {
 
 export const SubTitle: FC<Props> = (props) => {
   return (
-    <div className="font-zenMaru font-bold text-4xl text-mainText">
-      <h2>{props.children}</h2>
-    </div>
+    <h2 className="font-zenMaru font-bold text-4xl text-mainText">
+      {props.children}
+    </h2>
   );
 };

@@ -1,18 +1,12 @@
-import { Navigation } from "../components/Navigation";
-import { Profile } from "../components/Profile";
-import { Title } from "../components/Title";
+import { Navigation } from "../components/molecules/Navigation";
+import { Title } from "../components/molecules/Title";
 import "../main.css";
 
 export const Home = () => {
   return (
-    <div className="flex">
-      <div>
-        <Title />
-        <Profile />
-      </div>
-      <div>
-        <Navigation />
-      </div>
+    <div className="flex justify-between h-1/4 ml-36 mr-20 pt-40 pb-20">
+      <Title />
+      <Navigation />
     </div>
   );
 };

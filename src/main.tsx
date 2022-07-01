@@ -16,10 +16,8 @@ document.addEventListener("mousemove", (e) => {
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <div className="background">
-      <div className="mainCard select-none m-20 h-full">
+      <div className="mainCard select-none m-20 h-full justify-center items-center">
         <Home />
-        <Skills />
-        <Works />
       </div>
       <Footer />
     </div>

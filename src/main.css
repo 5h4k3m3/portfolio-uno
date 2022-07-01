@@ -42,12 +42,45 @@
   box-shadow: inset 7px 7px 14px #9d9d9d, inset -7px -7px 14px #ffffff;
 }
 
+
+
+
+
+
+
 .textShadow {
   text-shadow: 3px 3px 5px #9d9d9d, -3px -3px 5px #ffffff;
 }
 
+
+
+
+.neumoIcon {
+  border-radius: 50%;
+  background: #f8f1f7;
+  box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
+}
+
+.btn {
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  box-shadow:  7px 7px 14px #9d9d9d, -7px -7px 14px #ffffff;
+}
+
+.btn:active {
+  box-shadow: inset 7px 7px 14px #9d9d9d, inset -7px -7px 14px #ffffff;
+}
+
+.neumoCard {
+  border-radius: 20px;
+  background: #f8f1f7;
+  box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
+}
+
 .neumoButton {
-  border-radius: 30px;
+  border-radius: 20px;
   background: #f8f1f7;
   box-shadow:  20px 20px 40px #9d9d9d, -20px -20px 40px #ffffff;
   transition: all 0.3s;
@@ -67,5 +100,5 @@ box-shadow: inset 7px 7px 14px #9d9d9d, inset -7px -7px 14px #ffffff;
   content: "";
   background: rgb(176,225,255);
   background: linear-gradient(180deg, rgba(176,225,255,1) 0%, rgba(182,153,255,1) 100%);
-  @apply absolute inline-block top-20 left-12 h-60 w-2 rounded-lg;
+  @apply absolute inline-block top-4 -left-12 h-60 w-2 rounded-lg;
 }

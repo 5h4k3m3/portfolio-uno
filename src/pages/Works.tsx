@@ -1,6 +1,5 @@
 import { SkillCard } from "../components/SkillCard";
-import { SubTitle } from "../components/SubTitle";
-import "../main.css";
+import { SubTitle } from "../components/atoms/SubTitle";
 
 export const Works = () => {
   return (
