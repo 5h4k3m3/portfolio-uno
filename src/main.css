@@ -4,10 +4,10 @@
 
 .background {
   height: 300vh;
-  @apply bg-background w-screen absolute top-0 left-0;
+  @apply bg-background w-screen h-screen absolute;
 }
 
-.mainCard {
+.bgCard {
   border-radius: 20px;
   background-color: #f8f1f7;
   box-shadow:  10px 10px 20px #9d9d9d, -10px -10px 20px #d8e2f0;
@@ -45,11 +45,23 @@
 
 
 
-
+.bgCard {
+  border-radius: 20px;
+  background-color: #f8f1f7;
+  box-shadow:  10px 10px 20px #9d9d9d, -10px -10px 20px #d8e2f0;
+}
 
 
 .textShadow {
   text-shadow: 3px 3px 5px #9d9d9d, -3px -3px 5px #ffffff;
+}
+
+.textBtn {
+  transition: all 0.3s;
+}
+
+.textBtn:hover {
+  text-shadow:  2px 2px 4px #9d9d9d, -2px -2px 4px #ffffff;
 }
 
 

@@ -3,7 +3,7 @@ import { NavButton } from "../atoms/NavButton";
 
 export const Navigation: FC = () => {
   return (
-    <ul className="space-y-14">
+    <ul className="space-y-8">
       <li>
         <NavButton title={"#About"} linkTo={""} />
       </li>
