@@ -1,10 +1,12 @@
-import { FC } from "react";
 import { SubTitle } from "../components/atoms/SubTitle";
+import { BgCard } from "../components/atoms/BgCard";
 
-export const About: FC = () => {
+export const About = () => {
   return (
-    <>
-      <SubTitle>#About</SubTitle>
-    </>
+    <BgCard>
+      <div className="absolute w-full m-20">
+        <SubTitle># About</SubTitle>
+      </div>
+    </BgCard>
   );
 };
