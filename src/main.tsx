@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Home } from "./pages/Home";
-import { Footer } from "./pages/Footer";
+import { Footer } from "./components/atoms/Footer";
 import { Skills } from "./pages/Skills";
 import { Works } from "./pages/Works";
 import { BgCard } from "./components/atoms/BgCard";
@@ -17,9 +17,11 @@ document.addEventListener("mousemove", (e) => {
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <div className="background">
-      <About />
-      <Footer />
+    <div className="bg-background w-screen h-screen relative items-center flex justify-center select-none">
+      <BgCard>
+        <Home />
+        <Footer />
+      </BgCard>
     </div>
   </React.StrictMode>
 );

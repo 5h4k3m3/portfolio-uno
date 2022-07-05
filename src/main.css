@@ -2,13 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.background {
-  height: 300vh;
-  @apply bg-background w-screen h-screen absolute;
-}
-
 .bgCard {
-  border-radius: 20px;
+  height: 95%;
+  width: 95%;
+  border-radius: 14px;
   background-color: #f8f1f7;
   box-shadow:  10px 10px 20px #9d9d9d, -10px -10px 20px #d8e2f0;
 }
@@ -112,5 +109,5 @@ box-shadow: inset 7px 7px 14px #9d9d9d, inset -7px -7px 14px #ffffff;
   content: "";
   background: rgb(176,225,255);
   background: linear-gradient(180deg, rgba(176,225,255,1) 0%, rgba(182,153,255,1) 100%);
-  @apply absolute inline-block top-4 -left-12 h-60 w-2 rounded-lg;
+  @apply absolute inline-block top-0 -left-4 h-32 w-2 rounded-lg;
 }
