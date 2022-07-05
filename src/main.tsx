@@ -5,6 +5,7 @@ import { Footer } from "./pages/Footer";
 import { Skills } from "./pages/Skills";
 import { Works } from "./pages/Works";
 import { BgCard } from "./components/atoms/BgCard";
+import { About } from "./pages/About";
 
 // mouse cursor
 const mouse = document.querySelector(".mouse") as HTMLElement;
@@ -17,7 +18,7 @@ document.addEventListener("mousemove", (e) => {
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <div className="background">
-      <Works />
+      <About />
       <Footer />
     </div>
   </React.StrictMode>

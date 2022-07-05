@@ -4,7 +4,7 @@ import { BgCard } from "../components/atoms/BgCard";
 export const About = () => {
   return (
     <BgCard>
-      <div className="absolute w-full m-20">
+      <div className="absolute top-0 left-0">
         <SubTitle># About</SubTitle>
       </div>
     </BgCard>
