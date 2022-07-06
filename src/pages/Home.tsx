@@ -4,8 +4,9 @@ import "../main.css";
 
 export const Home = () => {
   return (
-    <div className="relative flex items-start justify-center my-40">
+    <div className="relative flex flex-col items-center mt-40 space-y-20">
       <Title />
+      <Navigation />
     </div>
   );
 };

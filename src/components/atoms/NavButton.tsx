@@ -7,9 +7,9 @@ type NavButtonProps = {
 
 export const NavButton: FC<NavButtonProps> = (props) => {
   return (
-    <div className=" px-20 py-4 text-baseColor font-zenMaru font-bold text-6xl">
-      <a href={props.linkTo}>
-        <h3 className="textShadow textBtn">{props.title}</h3>
+    <div className="text-mainText font-zenMaru font-bold text-2xl">
+      <a href={props.linkTo} className="neumoButton textBtn px-16 py-0">
+        {props.title}
       </a>
     </div>
   );
