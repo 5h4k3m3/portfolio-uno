@@ -6,36 +6,36 @@
   height: 95%;
   width: 95%;
   border-radius: 14px;
-  background-color: #f8f1f7;
+  background-color: #e8edf9;
   box-shadow:  10px 10px 20px #9d9d9d, -10px -10px 20px #d8e2f0;
 }
 
 .skillCard {
   border-radius: 20px;
-  background: #f8f1f7;
+  background: #e8edf9;
   box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
 }
 
 .iconWrapper {
   border-radius: 50%;
-  background: #f8f1f7;
+  background: #e8edf9;
   box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
 }
 
 .linkIcon {
   border-radius: 50%;
-  background: #f8f1f7;
+  background: #e8edf9;
   box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
   transition: all 0.3s;
 }
 
 .linkIcon:hover {
-  background: #f8f1f7;
+  background: #e8edf9;
   box-shadow:  7px 7px 14px #9d9d9d, -7px -7px 14px #ffffff;
 }
 
 .linkIcon:active {
-  background: #f8f1f7;
+  background: #e8edf9;
   box-shadow: inset 7px 7px 14px #9d9d9d, inset -7px -7px 14px #ffffff;
 }
 
@@ -44,13 +44,13 @@
 
 .bgCard {
   border-radius: 20px;
-  background-color: #f8f1f7;
-  box-shadow:  10px 10px 20px #9d9d9d, -10px -10px 20px #d8e2f0;
+  background-color: #e8edf9;
+  box-shadow:  10px 10px 20px #9d9d9d, -10px -10px 20px #e8edf9;
 }
 
 
 .textShadow {
-  text-shadow: 3px 3px 5px #9d9d9d, -3px -3px 5px #ffffff;
+  text-shadow: 3px 3px 5px #9d9d9d, -3px -3px 5px #e8edf9;
 }
 
 .textBtn {
@@ -66,7 +66,7 @@
 
 .neumoIcon {
   border-radius: 50%;
-  background: #f8f1f7;
+  background: #e8edf9;
   box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
 }
 
@@ -84,25 +84,25 @@
 
 .neumoCard {
   border-radius: 20px;
-  background: #f8f1f7;
+  background: #e8edf9;
   box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
 }
 
 .neumoButton {
   border-radius: 20px;
-  background: #f8f1f7;
-  box-shadow:  7px 7px 14px #9d9d9d, -7px -7px 14px #ffffff;
+  background: #e8edf9;
+  box-shadow:  7px 7px 14px #9d9d9d, -7px -7px 14px #e8edf9;
   transition: all 0.3s;
 }
 
 .neumoButton:hover {
-  background: #f8f1f7;
-  box-shadow:  4px 4px 8px #9d9d9d, -4px -4px 8px #ffffff;
+  background: #e8edf9;
+  box-shadow:  4px 4px 8px #9d9d9d, -4px -4px 8px #e8edf9;
 }
 
 .neumoButton:active {
-background: #f8f1f7;
-box-shadow: inset 4px 4px 8px #9d9d9d, inset -4px -4px 8px #ffffff;
+background: #e8edf9;
+box-shadow: inset 4px 4px 8px #9d9d9d, inset -4px -4px 8px #e8edf9;
 }
 
 .titleAccent::before {
