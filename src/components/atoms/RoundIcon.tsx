@@ -12,16 +12,16 @@ export const RoundIcon: FC<RoundIconProps> = (props) => {
       <a href={props.linkTo}>
         <img
           src={props.imgSrc}
-          className="rounded-full items-center justify-center h-20 w-20 p-2"
+          className="rounded-full items-center justify-center h-14 w-14 p-2"
         />
       </a>
     </div>
   ) : (
     /* icon only */
-    <div className="neumoIcon">
+    <div className="neumoIcon flex h-36 w-36">
       <img
         src={props.imgSrc}
-        className="rounded-full items-center justify-center h-20 w-20 p-2"
+        className="rounded-full items-center justify-center p-2"
       />
     </div>
   );

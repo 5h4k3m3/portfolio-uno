@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <div className="bg-background w-screen h-screen relative items-center flex justify-center select-none">
       <BgCard>
-        <Home />
+        <About />
         <Footer />
       </BgCard>
     </div>

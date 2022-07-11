@@ -1,12 +1,11 @@
 import { SubTitle } from "../components/atoms/SubTitle";
-import { BgCard } from "../components/atoms/BgCard";
+import { Profile } from "../components/Profile";
 
 export const About = () => {
   return (
-    <BgCard>
-      <div className="absolute top-0 left-0">
-        <SubTitle># About</SubTitle>
-      </div>
-    </BgCard>
+    <div className="relative flex flex-col mt-0">
+      <SubTitle># About</SubTitle>
+      <Profile />
+    </div>
   );
 };

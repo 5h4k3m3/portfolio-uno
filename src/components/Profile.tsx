@@ -1,20 +1,17 @@
 import "../main.css";
 import ProfileImg from "../images/profile.jpg";
+import { RoundIcon } from "./atoms/RoundIcon";
+import { SocialIcons } from "./molecules/SocialIcons";
 
 export const Profile = () => {
   return (
-    <div className="flex">
-      <div className="iconWrapper w-64 h-64 mt-12 ml-32">
-        <img
-          src={ProfileImg}
-          className="rounded-full items-center justify-center p-4"
-        />
+    <div className="flex flex-col items-center justify-center mt-16 mx-4">
+      <RoundIcon imgSrc={ProfileImg} linkTo={""} />
+      <div className="nameWrapper font-zenMaru font-bold px-4 py-10">
+        <p className="text-4xl text-mainText pb-4">しゃけのきりみ</p>
+        <p className="text-2xl text-subText ml-2">Salmon Fillet</p>
       </div>
-      <div className="nameWrapper font-zenMaru font-bold px-10 pt-24 pb-10">
-        <h3 className="text-2xl text-mainText pb-2 ml-2"># Name</h3>
-        <p className="text-5xl text-mainText pb-4">しゃけのきりみ</p>
-        <p className="text-4xl text-subText ml-2">Salmon Fillet</p>
-      </div>
+      <SocialIcons />
     </div>
   );
 };
