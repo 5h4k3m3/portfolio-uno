@@ -6,8 +6,10 @@ type Props = {
 
 export const SubTitle: FC<Props> = (props) => {
   return (
-    <h2 className="font-zenMaru font-bold text-2xl ml-8 mt-8 text-mainText">
-      {props.children}
-    </h2>
+    <div className="neumoCardInset flex items-center justify-start mt-4">
+      <h2 className="font-zenMaru font-bold text-2xl ml-4 my-2 text-mainText">
+        {props.children}
+      </h2>
+    </div>
   );
 };

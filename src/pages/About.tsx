@@ -3,7 +3,7 @@ import { Profile } from "../components/Profile";
 
 export const About = () => {
   return (
-    <div className="relative flex flex-col mt-0">
+    <div className="relative flex items-center flex-col">
       <SubTitle># About</SubTitle>
       <Profile />
     </div>

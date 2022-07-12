@@ -10,6 +10,14 @@
   box-shadow: 9px 9px 18px #bec6d7, -9px -9px 18px #e6f0ff;
 }
 
+.neumoCardInset {
+  width: 90%;
+  height: 80%;
+  background: #d2dbee;
+  border-radius: 10px;
+  box-shadow: inset 9px 9px 18px #bec6d7, inset -9px -9px 18px #e6f0ff;
+}
+
 .neumoNavCard {
   width: 90%;
   height: 10%;
