@@ -1,4 +1,4 @@
-import { SkillCard } from "../components/SkillCard";
+import { SkillCard } from "../components/atoms/SkillIcon";
 import { SubTitle } from "../components/atoms/SubTitle";
 import { Card } from "../components/atoms/Card";
 

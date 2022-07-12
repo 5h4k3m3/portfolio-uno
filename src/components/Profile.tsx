@@ -1,4 +1,3 @@
-import "../main.css";
 import ProfileImg from "../images/profile.jpg";
 import { RoundIcon } from "./atoms/RoundIcon";
 import { SocialIcons } from "./molecules/SocialIcons";
