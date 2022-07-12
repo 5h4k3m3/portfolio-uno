@@ -1,12 +1,12 @@
-import { Navigation } from "../components/molecules/Navigation";
+import { RoundIcon } from "../components/atoms/RoundIcon";
 import { Title } from "../components/molecules/Title";
-import "../main.css";
+import SalmonImg from "../images/salmons.png";
 
 export const Home = () => {
   return (
-    <div className="relative flex flex-col items-center mt-40 space-y-20">
+    <div className="relative flex flex-col items-center mt-32 space-y-20">
       <Title />
-      <Navigation />
+      <RoundIcon imgSrc={SalmonImg} linkTo={""} />
     </div>
   );
 };

@@ -5,13 +5,13 @@ export const Navigation: FC = () => {
   return (
     <ul className="w-full flex items-center justify-evenly">
       <li>
-        <NavButton title={"#About"} linkTo={""} />
+        <NavButton title={"About"} linkTo={""} />
       </li>
       <li>
-        <NavButton title={"#Works"} linkTo={""} />
+        <NavButton title={"Works"} linkTo={""} />
       </li>
       <li>
-        <NavButton title={"#Skills"} linkTo={""} />
+        <NavButton title={"Skills"} linkTo={""} />
       </li>
     </ul>
   );

@@ -13,7 +13,9 @@ import "./main.css";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <div className="bg-background w-screen h-screen select-none flex flex-col items-center pt-4 space-y-8">
-      <Card>Hello</Card>
+      <Card>
+        <Home />
+      </Card>
       <Navigation />
       <Footer />
     </div>

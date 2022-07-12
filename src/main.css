@@ -37,6 +37,36 @@
   box-shadow: inset 4px 4px 8px #bec6d7, inset -4px -4px 8px #e6f0ff;
 }
 
+.textShadow {
+  text-shadow: 3px 3px 5px #9d9d9d, -3px -3px 5px #e8edf9;
+}
+
+.titleAccent::before {
+  content: "";
+  background: rgb(176,225,255);
+  background: linear-gradient(180deg, rgb(103, 189, 255) 0%, rgba(182,153,255,1) 100%);
+  @apply absolute inline-block top-0 -left-5 h-32 w-2 rounded-lg;
+}
+
+.neumoIcon {
+  border-radius: 50%;
+  background: #d2dbee;
+  box-shadow: 9px 9px 18px #bec6d7, -9px -9px 18px #e6f0ff;
+}
+
+.btn {
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 4px 4px 8px #bec6d7, -4px -4px 8px #e6f0ff;
+}
+
+.btn:active {
+  box-shadow: inset 4px 4px 8px #bec6d7, inset -4px -4px 8px #e6f0ff;
+
+}
+
 /*
 .skillCard {
   border-radius: 20px;
