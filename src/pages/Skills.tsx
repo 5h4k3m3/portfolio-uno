@@ -1,6 +1,6 @@
 import { SkillCard } from "../components/SkillCard";
 import { SubTitle } from "../components/atoms/SubTitle";
-import { BgCard } from "../components/atoms/BgCard";
+import { BgCard } from "../components/atoms/Card";
 
 export const Skills = () => {
   return (
