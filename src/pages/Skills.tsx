@@ -22,7 +22,7 @@ export const Skills = () => {
   return (
     <div className="relative flex items-center flex-col">
       <SubTitle># Skills</SubTitle>
-      <div className="w-full space-y-6 pt-10 items-center">
+      <div className="w-full space-y-10 pt-10 items-center">
         <div className="flex justify-evenly">
           <SkillIcon imgSrc={cppIcon} />
           <SkillIcon imgSrc={csharpIcon} />
