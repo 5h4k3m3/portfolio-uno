@@ -9,12 +9,14 @@ type WorkCardProps = {
 
 export const WorkCard: FC<WorkCardProps> = (props) => {
   return (
-    <div className="flex flex-col items-center justify-center mt-16 mx-4">
+    <div className="neumoWorkCard flex items-center p-8 font-zenMaru">
       <RoundIcon imgSrc={props.imgSrc} linkTo={""} />
-      <h3>{props.title}</h3>
-      {props.tags.map((item) => (
-        <p>#{item}</p>
-      ))}
+      <h3 className="text-2xl text-mainText font-bold pt-4">{props.title}</h3>
+      <div className="items-left space-y-2">
+        {props.tags.map((item) => (
+          <p className="text-base font-bold text-subText">#{item}</p>
+        ))}
+      </div>
     </div>
   );
 };

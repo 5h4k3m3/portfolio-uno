@@ -1,19 +1,24 @@
-import { SkillCard } from "../components/atoms/SkillIcon";
 import { SubTitle } from "../components/atoms/SubTitle";
-import { Card } from "../components/atoms/Card";
+import { WorkCard } from "../components/molecules/WorkCard";
+import SalmonIcon from "../images/salmons.png";
+import DiscordIcon from "../images/discord.png";
 
 export const Works = () => {
   return (
-    <Card>
-      <div className="absolute w-full m-20">
-        <SubTitle># Works</SubTitle>
-        <div className="flex justify-between w-4/5 px-8">
-          <SkillCard title="Portfolio" comment="#beginner" />
-          <SkillCard title="Discord Bot" comment="#beginner" />
-          <SkillCard title="WIP" comment="" />
-          <SkillCard title="WIP" comment="" />
-        </div>
+    <div className="relative flex items-center flex-col">
+      <SubTitle># Works</SubTitle>
+      <div className="flex flex-col space-x-8 mt-10">
+        <WorkCard
+          imgSrc={SalmonIcon}
+          title="Portfolio"
+          tags={["TypeScript", "React", "TailwindCSS"]}
+        />
+        <WorkCard
+          imgSrc={DiscordIcon}
+          title="Discord Bot"
+          tags={["JavaScript"]}
+        />
       </div>
-    </Card>
+    </div>
   );
 };

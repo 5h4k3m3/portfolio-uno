@@ -26,6 +26,12 @@
   box-shadow: 9px 9px 18px #bec6d7, -9px -9px 18px #e6f0ff;
 }
 
+.neumoWorkCard {
+  background: #d2dbee;
+  border-radius: 10px;
+  box-shadow: 9px 9px 18px #bec6d7, -9px -9px 18px #e6f0ff;
+}
+
 .neumoButton {
   transition: all 0.3s;
   background: #d2dbee;
