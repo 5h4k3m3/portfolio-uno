@@ -7,7 +7,7 @@ export const Works = () => {
   return (
     <div className="relative flex items-center flex-col">
       <SubTitle># Works</SubTitle>
-      <div className="flex flex-col space-x-8 mt-10">
+      <div className="flex flex-col space-y-8 mt-10">
         <WorkCard
           imgSrc={SalmonIcon}
           title="Portfolio"
