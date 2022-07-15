@@ -1,5 +1,7 @@
+import { FC } from "react";
 import { SkillIcon } from "../components/atoms/SkillIcon";
 import { SubTitle } from "../components/atoms/SubTitle";
+
 import cppIcon from "../images/skills/cpp.png";
 import csharpIcon from "../images/skills/csharp.png";
 import cssIcon from "../images/skills/css3.png";
@@ -18,7 +20,7 @@ import threejsIcon from "../images/skills/threejs.svg";
 import tsIcon from "../images/skills/typescript.png";
 import unityIcon from "../images/skills/unity.png";
 
-export const Skills = () => {
+export const Skills: FC = () => {
   return (
     <div className="relative flex items-center flex-col">
       <SubTitle># Skills</SubTitle>

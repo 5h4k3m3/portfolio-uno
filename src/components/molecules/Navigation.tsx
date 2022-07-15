@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { NavButton } from "../atoms/NavButton";
 import { NavIcon } from "../atoms/NavIcon";
+
 import HomeIcon from "../../images/home.png";
 
 export const Navigation: FC = () => {
