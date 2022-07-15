@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 
 type NavButtonProps = {
   title: string;
@@ -7,11 +8,11 @@ type NavButtonProps = {
 
 export const NavButton: FC<NavButtonProps> = (props) => {
   return (
-    <a
-      href={props.linkTo}
-      className="neumoButton px-4 py-1 mt-6 text-mainText font-zenMaru font-bold text-xl block width-full"
+    <Link
+      to={props.linkTo}
+      className="neumoButton px-4 py-2 text-mainText font-zenMaru font-bold text-xl block width-full"
     >
       {props.title}
-    </a>
+    </Link>
   );
 };
