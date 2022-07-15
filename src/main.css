@@ -38,13 +38,11 @@
   border-radius: 10px;
   box-shadow: 9px 9px 18px #bec6d7, -9px -9px 18px #e6f0ff;
 }
-
 .neumoButton:hover {
   background: #d2dbee;
   border-radius: 10px;
   box-shadow: 4px 4px 8px #bec6d7, -4px -4px 8px #e6f0ff;
 }
-
 .neumoButton:active {
   background: #d2dbee;
   border-radius: 10px;
@@ -71,117 +69,10 @@
 .btn {
   transition: all 0.3s;
 }
-
 .btn:hover {
   box-shadow: 4px 4px 8px #bec6d7, -4px -4px 8px #e6f0ff;
 }
-
 .btn:active {
   box-shadow: inset 4px 4px 8px #bec6d7, inset -4px -4px 8px #e6f0ff;
 
 }
-
-/*
-.skillCard {
-  border-radius: 20px;
-  background: #e8edf9;
-  box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
-}
-
-.iconWrapper {
-  border-radius: 50%;
-  background: #e8edf9;
-  box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
-}
-
-.linkIcon {
-  border-radius: 50%;
-  background: #e8edf9;
-  box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
-  transition: all 0.3s;
-}
-
-.linkIcon:hover {
-  background: #e8edf9;
-  box-shadow:  7px 7px 14px #9d9d9d, -7px -7px 14px #ffffff;
-}
-
-.linkIcon:active {
-  background: #e8edf9;
-  box-shadow: inset 7px 7px 14px #9d9d9d, inset -7px -7px 14px #ffffff;
-}
-
-
-
-
-.neumoMainCard {
-  width: 95%;
-  height: 75%;
-  background: #c8ceea;
-  border-radius: 15%;
-  box-shadow: 9.91px 9.91px 15px #B6BBD5, -9.91px -9.91px 15px #DAE1FF;
-}
-
-
-.textShadow {
-  text-shadow: 3px 3px 5px #9d9d9d, -3px -3px 5px #e8edf9;
-}
-
-.textBtn {
-  transition: all 0.3s;
-}
-
-.textBtn:hover {
-  text-shadow:  2px 2px 4px #9d9d9d, -2px -2px 4px #ffffff;
-}
-
-
-
-
-.neumoIcon {
-  border-radius: 50%;
-  background: #e8edf9;
-  box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
-}
-
-.btn {
-  transition: all 0.3s;
-}
-
-.btn:hover {
-  box-shadow:  7px 7px 14px #9d9d9d, -7px -7px 14px #ffffff;
-}
-
-.btn:active {
-  box-shadow: inset 7px 7px 14px #9d9d9d, inset -7px -7px 14px #ffffff;
-}
-
-.neumoCard {
-  border-radius: 20px;
-  background: #e8edf9;
-  box-shadow:  15px 15px 30px #9d9d9d, -15px -15px 30px #ffffff;
-}
-
-.neumoButton {
-  border-radius: 20px;
-  background: #e8edf9;
-  box-shadow:  7px 7px 14px #9d9d9d, -7px -7px 14px #e8edf9;
-  transition: all 0.3s;
-}
-
-.neumoButton:hover {
-  background: #e8edf9;
-  box-shadow:  4px 4px 8px #9d9d9d, -4px -4px 8px #e8edf9;
-}
-
-.neumoButton:active {
-background: #e8edf9;
-box-shadow: inset 4px 4px 8px #9d9d9d, inset -4px -4px 8px #e8edf9;
-}
-
-.titleAccent::before {
-  content: "";
-  background: rgb(176,225,255);
-  background: linear-gradient(180deg, rgba(176,225,255,1) 0%, rgba(182,153,255,1) 100%);
-  @apply absolute inline-block top-0 -left-4 h-32 w-2 rounded-lg;
-} */
